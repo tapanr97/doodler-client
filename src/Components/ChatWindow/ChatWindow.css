@@ -1,0 +1,11 @@
+.chat-window {
+    position: fixed;
+    bottom: 0;
+    width: 410px;
+    right: 50px;
+    box-shadow: 0 0 18px #888888;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    overflow: hidden;
+    background: white;
+}

@@ -1,0 +1,82 @@
+@import "../ColorPicker/ColorPicker.css";
+
+.drawing-canvas {
+    background: white;
+    /*box-shadow: 0 0 18px #888888;*/
+}
+
+.canvas-view {
+    width: 45%;
+    position: relative;
+}
+
+#canvas {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+#choose-the-word {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 1s linear;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.word {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+    width: auto;
+    padding: 2%;
+    /*height: 50px;*/
+    background: white;
+    font-size: 1.2vw;
+}
+
+.word:hover {
+    cursor: pointer;
+}
+
+#waiting-dialog, #score-card-after-turn, #final-score-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 1s linear;
+    color: yellow;
+    font-size: 3vw;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+@media (max-width: 600px) {
+    .canvas-view {
+        width: 80%;
+        margin: auto;
+        height: 100%;
+    }
+
+    .word {
+        font-size: 3.7vw;
+    }
+}

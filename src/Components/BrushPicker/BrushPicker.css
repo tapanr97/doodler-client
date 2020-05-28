@@ -1,0 +1,15 @@
+.brush-picker {
+    background: white;
+    display: flex;
+    margin-left: 5%;
+}
+
+.brush {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    cursor: pointer;
+}

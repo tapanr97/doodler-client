@@ -1,0 +1,13 @@
+.toolbar {
+    background: white;
+    width: 375px;
+    margin-left: 6%;
+}
+
+.single-color-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+}

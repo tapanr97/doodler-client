@@ -1,0 +1,9 @@
+#chat-area {
+    height: 92%;
+}
+
+#chat-viewer {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 90%;
+}

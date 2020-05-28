@@ -1,0 +1,18 @@
+#chat-window-header {
+    height: 10%;
+    background: lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+}
+
+#chat-window-header:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    #chat-window-header {
+        font-size: 3.5vw;
+    }
+}

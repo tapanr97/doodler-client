@@ -1,0 +1,65 @@
+.sketcher-window {
+
+}
+
+@font-face {
+    font-family: 'doodle-fonts';
+    src: url('../../fonts/doodle2.ttf');
+}
+
+.application-header {
+    width: max-content;
+    margin: auto;
+    font-family: doodle-fonts;
+    color: transparent;
+    font-size: 5vw;
+    text-align: center;
+    letter-spacing: 0.8vw;
+    font-weight: bold;
+    height: 6.5vw;
+    /*text-shadow: -2px 2px 0 #000, 2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000;*/
+    background-image: linear-gradient(to left, violet, white, blue, limegreen, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-stroke-width: 0.15vw;
+    -webkit-text-stroke-color: black;
+}
+
+#sketcher-window-inner-container {
+    display: flex;
+    justify-content: center;
+    height: 38vw;
+}
+
+#left-panel {
+    width: 15%;
+    margin-right: 0.2%;
+    font-size: 1.2vw;
+}
+
+#timer-and-rounds {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    margin-bottom: 2%;
+}
+
+
+@media (max-width: 600px) {
+    .application-header {
+        font-size: 8vw;
+        height: 11vw;
+    }
+
+    #sketcher-window-inner-container {
+        display: block;
+        height: 70vw;
+    }
+
+    #bottom-panel {
+        display: flex;
+        justify-content: center;
+        height: 90vw;
+    }
+}
