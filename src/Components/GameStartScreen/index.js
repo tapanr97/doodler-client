@@ -4,7 +4,7 @@ import HostView from "./HostView";
 import Join from "../Join";
 import queryString from 'query-string';
 
-const socket = io('http://localhost:5001/');
+const socket = io('https://doodler-server.herokuapp.com/');
 
 const GameStartScreen = (props) => {
     const [users, setUsers] = useState([]);
